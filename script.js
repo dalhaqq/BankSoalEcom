@@ -7,7 +7,7 @@ $( document ).ready(function() {
       soalan = pert[1];
       soalhtml += `<div class="card">
       <h3>`
-      soalhtml += soalan.soal.replace(/\n/g, "<br>")
+      soalhtml += soalan.soal.replace(/\\n/g, "<br>")
       soalhtml +=`</h3>`
       soalhtml +=`<div class="alert `
       if(soalan.benar == "A"){
